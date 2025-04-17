@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "WeatherController",
+    "Method": "GetWeatherByCity",
+    "RelativePath": "api/Weather/city",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherController",
+    "Method": "GetWeatherByLatLon",
+    "RelativePath": "api/Weather/latlon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lat",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lon",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
